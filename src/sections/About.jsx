@@ -92,23 +92,13 @@ const About = () => {
             </motion.h3>
 
             <motion.p 
-              className="text-white/70 leading-relaxed mb-6 text-sm md:text-base text-justify"
+              className="text-white/70 leading-relaxed mb-8 text-sm md:text-base text-justify"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               I am a passionate tech enthusiast pursuing my B.Tech in Computer Science Engineering with a specialization in Artificial Intelligence & Machine Learning. I enjoy bridging the gap between design and functionality by crafting seamless frontend systems while integrating intelligent backend AI microservices.
-            </motion.p>
-
-            <motion.p 
-              className="text-white/70 leading-relaxed mb-8 text-sm md:text-base text-justify"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true, margin: '-100px' }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-            >
-              As the <strong className="text-white">Event Management Sub Head</strong> at <strong className="text-bat-gold">GDG on Campus IPEC</strong>, I love organizing workshops, hackathons, and community meetups that foster collaborative learning and bring developers together to build impactful real-world products.
             </motion.p>
 
             {/* Stats Cards Grid */}
